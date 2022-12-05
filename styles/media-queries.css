@@ -1,0 +1,8 @@
+@media (min-width: 551px) {
+    .main-header > .logo {
+        width: auto;
+    }
+    .main-header > .logo > .large-screen-logo {
+        display: block;
+    }  
+}

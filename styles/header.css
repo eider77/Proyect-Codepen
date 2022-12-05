@@ -1,0 +1,156 @@
+head {
+    display: none;
+}
+
+header {
+    display: block;
+}
+
+.main-header {
+    background: black;
+    border-bottom: 1px solid #222;
+    display: flex;
+    position: relative;
+    z-index: 11;
+    height: 65px;
+}
+
+.logo {
+    margin: 0;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    margin-right: 16px;
+}
+
+.main-header .logo {
+    width: auto;
+}
+
+.logo .large-screen-logo {
+    display: none;
+    font: 0/0 a;
+    width: 180px;
+    height: 65px;
+    border: 0;
+    outline: 0;
+}
+
+.header-chunk {
+    overflow: hidden;
+}
+
+.priority-nav {
+    height: 100%;
+}
+
+.fill-space {
+    flex: 3;
+}
+
+.primary-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.priority-nav>ul {
+    list-style: none;
+    height: 100%;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    white-space: normal;
+}
+
+.priority-nav>ul>li {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+li {
+    height: 100%;
+    font-weight: bold;
+}
+
+.primary-nav .primary a {
+    color: white;
+    font-weight: 700;
+    position: relative;
+}
+
+.primary-nav>ul>li>a {
+    line-height: 80px;
+}
+
+.primary-nav>a, .primary-nav>ul>li>a {
+    line-height: 65px;
+    position: relative;
+    font-size: 16px;
+    color: #acacac;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.primary-spark {
+    color:  #b3b3b3;
+  }
+
+.header-chunk ul i{
+    color: #b3b3b3;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+}
+
+.primary-nav .primary-pens::before {
+    content: 'Explore';
+    text-transform: uppercase;
+    color: #f4e17f;
+    position: absolute;
+    font-size: 0.83rem;
+    display: block;
+    line-height: 20px;
+    top: 12px;
+}
+
+.primary-nav .primary-last {
+    margin-right: 30px;
+}
+
+.primary-actions {
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.header-search {
+    display: flex;
+    font-size: 30px;
+    margin-top: 15px;
+    color: grey;
+}
+
+.header-search-button {
+    display: block;
+    height: 65px;
+    margin-right: 8px;
+}
+
+.user-stuff {
+    display: flex;
+    align-items: center;
+}

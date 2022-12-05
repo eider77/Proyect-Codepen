@@ -1,0 +1,48 @@
+html {
+    font-family: "Lato", Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+}
+
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #191A1D;
+    color: white;
+    display: block;
+}
+
+h1 {
+    line-height: 1.1;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0 0 0px 0;
+    font-weight: normal;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #76DAFF;
+}

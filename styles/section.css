@@ -1,0 +1,94 @@
+.home-promo {
+    background: radial-gradient(circle farthest-corner at 200px 0, #434752, #000);
+    background-position: top left;
+    position: relative;
+}
+
+.home-section {
+    margin: 0px 0 100px 0;
+}
+
+.promo-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo-text {
+    padding: 4rem;
+    max-width: 775px;
+}
+
+.promo-headline {
+    font-family: "Lato", Sans-Serif;
+    font-weight: 300;
+}
+
+section {
+    display: block;
+}
+
+.promo-tagline {
+    font-size: 2.2rem;
+    color: #b3b3b3;
+    padding: 0.5rem 0;
+}
+
+p {
+    display: block;
+    margin: 0 0 1em 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.projects-promo {
+    max-width: 650px;
+    align-self: flex-end;
+}
+
+.projects-promo-text {
+    top: 25px;
+    left: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 40px 0px 5px 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.projects-screenshot {
+    box-shadow: -13px 15px 47px 0px rgba(0,0,0,0.75);
+}
+
+.promo-landing-page-links {
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+    background-color: rgb(26, 26, 26);
+}
+
+.promo-landing-page-links>a {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    background: #36383f;
+    border: 1px solid #676767;
+}
+
+.promo-landing-page-links>a .codepen-for {
+    font-weight: bold;
+}
+
+.promo-landing-page-links>a .promo-for {
+    font-size: 1.6rem;
+    font-family: 'Coda Caption', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
